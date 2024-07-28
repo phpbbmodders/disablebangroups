@@ -48,7 +48,7 @@ class main_listener implements EventSubscriberInterface
 	 * @param \phpbb\user                        $user
 	 * @param string                             $table_prefix
 	 */
-	public function __construct(\phpbb\db\driver\driver_interface  $db, \phpbb\language\language $language, \phpbb\request\request $request, \phpbb\template\template $template, \phpbb\user $user, $table_prefix)
+	public function __construct(\phpbb\db\driver\driver_interface $db, \phpbb\language\language $language, \phpbb\request\request $request, \phpbb\template\template $template, \phpbb\user $user, $table_prefix)
 	{
 		$this->db = $db;
 		$this->language = $language;
