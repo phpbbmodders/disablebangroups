@@ -11,7 +11,7 @@
 namespace phpbbmodders\disablebangroups;
 
 /**
- * Group Ban extension base
+ * Disable Ban Groups extension base
  *
  * It is recommended to remove this file from
  * an extension if it is not going to be used.

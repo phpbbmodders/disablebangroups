@@ -16,7 +16,7 @@ namespace phpbbmodders\disablebangroups\event;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
- * Group Ban event listener
+ * Disable Ban Groups event listener
  */
 class main_listener implements EventSubscriberInterface
 {
