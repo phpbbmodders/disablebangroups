@@ -125,7 +125,7 @@ class main_listener implements EventSubscriberInterface
 
 			if ($result && ($this->user->data['user_type'] != USER_FOUNDER))
 			{
-				trigger_error('CANNOT_BAN_GROUP');
+				trigger_error($this->language->lang('CANNOT_BAN_GROUP'));
 			}
 		}
 	}
