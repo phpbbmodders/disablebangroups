@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        bind:
+            $table_prefix: '%core.table_prefix%'
+
+    phpbbmodders.disablebangroups.listener:
+        class: phpbbmodders\disablebangroups\event\main_listener
+        tags:
+            - { name: event.listener }

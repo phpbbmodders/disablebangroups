@@ -1,0 +1,27 @@
+{
+    "name": "phpbbmodders/disablebangroups",
+    "type": "phpbb-extension",
+    "description": "Disables the ability to ban users of selected groups; configured in the ACP",
+    "homepage": "https://www.phpbbmodders.com/",
+    "version": "1.0.0-dev",
+    "time": "2024-07-26",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Kailey Snay",
+            "email": "kailey.snay@snayhomelab.com",
+            "homepage": "https://www.snayhomelab.com/",
+            "role": "Extension Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Disable Ban Groups",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
+        }
+    }
+}
