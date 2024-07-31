@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'CANNOT_BAN_GROUP'	=> 'One or more users in the ban list belong to a group that cannot be banned.',
+	'CANNOT_BAN_GROUP'	=> 'Un ou plusieurs utilisateurs de la liste des bannis appartiennent à un groupe qui ne peut pas être banni.',
 
-	'GROUP_BAN'			=> 'Group ban',
-	'GROUP_BAN_EXPLAIN'	=> 'Users in this group can be banned. Founders can ban all users.',
+	'GROUP_BAN'			=> 'Interdiction de groupe',
+	'GROUP_BAN_EXPLAIN'	=> 'En cochant la case, les utilisateurs de ce groupe peuvent être bannis. Les fondateurs peuvent bannir tous les utilisateurs.',
 ]);
